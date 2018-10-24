@@ -9,7 +9,7 @@
 
 	<packaging>mule</packaging>
 
-	<name>Mule maven-project sample Application</name>
+	<name>Mulesoft maven-project sample Application</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
