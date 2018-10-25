@@ -144,6 +144,12 @@
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
+				<dependency>
+			<groupId>org.mule.modules</groupId>
+			<artifactId>mule-module-raml</artifactId>
+			<version>${mule.version}</version>
+			<scope>provided</scope>
+		</dependency>
 		<!-- for testing -->
 		<dependency>
 			<groupId>org.mule.tests</groupId>
