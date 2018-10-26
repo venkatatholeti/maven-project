@@ -87,6 +87,12 @@
 	<!-- Mule Dependencies -->
 	<dependencies>
 		<!-- Xml configuration -->
+						<dependency>
+			<groupId>com.mulesoft.muleesb</groupId>
+			<artifactId>mule-core-abc</artifactId>
+			<version>${mule.version}</version>
+			<scope>provided</scope>
+		</dependency>
 				<dependency>
 			<groupId>com.mulesoft.muleesb</groupId>
 			<artifactId>mule-core-eee</artifactId>
@@ -215,6 +221,13 @@
 		<dependency>
 			<groupId>org.mule.modules</groupId>
 			<artifactId>mule-module-yaml</artifactId>
+			<version>${mule.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.mule.modules</groupId>
+			<artifactId>mule-module-xyz</artifactId>
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
